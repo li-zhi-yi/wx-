@@ -1,0 +1,16 @@
+/* components/x-left/index.wxss */
+view.nav{
+  background-color:blue;
+  width: 200rpx;
+}
+view.item{
+  border-bottom:1rpx solid black;
+  text-align:center;
+  font-size: 30rpx;
+  line-height:70rpx;
+  color:orange;
+  background:gray;
+}
+view.active{
+  background:white;
+}

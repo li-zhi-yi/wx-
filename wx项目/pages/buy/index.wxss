@@ -1,0 +1,87 @@
+/* pages/buy/index.wxss */
+view.content{
+  width: 750rpx;
+  height: 100vh;
+}
+view.header{
+  position:fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 750rpx;
+  height: 250rpx;
+}
+view.shopTitle{
+  margin-top:250rpx;
+  margin-left:20rpx;
+  width:750rpx;
+  height:100rpx;
+  font-size:40rpx;
+  line-height:100rpx;
+  font-weight: bold;
+  border-bottom:
+  2rpx solid #ccc;
+  position:fixed;
+  left: 0;
+  right: 0;
+  top: 0rpx;
+}
+view.product{
+  width: 750rpx;
+  padding:20rpx 20rpx;
+  box-sizing: border-box;
+  background:#FFFFFF;
+  margin-top:350rpx;
+}
+view.item view.something{
+  width: 100%;
+  height: 200rpx;
+  padding:30rpx 0;
+  box-sizing: border-box;
+  display:flex;
+  justify-content: space-between;
+}
+view.something>image.img{
+  width: 140rpx;
+  height: 140rpx;
+  /* border:2rpx solid gray; */
+}
+view.title{
+  width: 200rpx;
+  text-align:center;
+  height: 140rpx;
+  font-size: 30rpx;
+  line-height:140rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color:gray;
+}
+view.something>view.text{
+  width: 200rpx;
+  height: 140rpx;
+}
+view.text>text{
+  width: 70rpx;
+  height: 140rpx;
+  display:inline-block;
+  text-align:center;
+  line-height:140rpx;
+}
+view.text>text:first-child{
+flex:1;
+}
+button.btn{
+  width: 750rpx !important;
+  padding:0;
+  height: 100rpx;
+  background:red !important;
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color:white !important;
+  font-size: 45rpx; 
+  font-weight: bold;
+  line-height:100rpx;
+}

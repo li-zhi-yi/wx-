@@ -1,0 +1,25 @@
+<!--pages/order/index.wxml-->
+<!-- <text>pages/order/index.wxml</text> -->
+<view class="order" style="height:{{height}}rpx;">
+  <scroll-view scroll-y="true" style="height:{{height}}rpx;">
+      <view class="item" wx:if="{{allArr}}" wx:for="{{allArr}}" wx:key="this">
+        <view class="top">
+          <image class="img" src="/image/product/{{item.img}}"></image>
+        <view class="content">
+          <view class="left">
+            <text class="title">{{item.title}}</text>
+            <text class="time"></text>
+            <text class="product">汉堡等{{item.n}}件商品</text>
+          </view>
+          <view class="right">
+            <text class="send">订端已送达</text>
+            <text class="price">￥{{(item.price)*(item.n)}}</text>
+          </view>
+        </view>
+        </view>
+        <view class="bottom">
+          <button class="btn" type="default" bindtap="navback">再来一单</button>
+        </view>
+      </view>
+  </scroll-view>
+</view>

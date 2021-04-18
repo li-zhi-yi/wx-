@@ -1,0 +1,9 @@
+<!--pages/index/index.wxml-->
+<!-- <text>pages/index/index.wxml</text> -->
+<header></header>
+<view class="main" style="height:{{height}}rpx">
+  <!-- <left data="{{result}}" bindmsg="receivemsg"></left> -->
+  <x-left menu="{{menu}}" choose="{{choose}}" bindnav="changeShow" height="{{height}}"></x-left>
+  <right menu="{{product}}" height="{{height}}" bindgetMsg="getMsg"></right>
+</view>
+<footer price="{{price}}" allArr="{{allArr}}"></footer>

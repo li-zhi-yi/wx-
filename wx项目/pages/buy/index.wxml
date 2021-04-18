@@ -1,0 +1,22 @@
+<!--pages/buy/index.wxml-->
+<!-- <text>pages/buy/index.wxml</text> -->
+
+<view class="header" style="height:250rpx;width:750rpx;background-color:orange;">
+
+</view>
+<view class="shopTitle">购买商品</view>
+<view class="product" style="height:{{height}}rpx">
+ <view class="item">
+<scroll-view scroll-y="true" style="height:{{height}}rpx">
+  <view class="something"  wx:for="{{allArr}}" wx:key="this" >
+    <image class="img" src="../../image/product/{{item.img}}"></image>
+    <view class="title">{{item.title}}</view>
+    <view class="text">
+      <text class="num">x{{item.n}}</text>
+      <text class="price">{{item.price}}</text>
+    </view>
+  </view>
+</scroll-view >
+ </view>
+</view>
+<button type="warn" class="btn" bindtap="givemoney">￥{{price}}购买</button>

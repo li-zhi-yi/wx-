@@ -1,0 +1,9 @@
+/* pages/index/index.wxss */
+view.main{
+  display:flex;
+  width: 750rpx;
+  margin:150rpx 0 100rpx 0;
+}
+right{
+  flex:1;
+}

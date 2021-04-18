@@ -1,0 +1,11 @@
+<!--components/header/index.wxml-->
+<!-- <text>components/header/index.wxml</text> -->
+<view class="header">
+<view class="left">
+  <image src="../../image/logo.png" alt="logo"></image>
+</view>
+<view class="right">
+  <view class="top">订餐</view>
+  <view class="bottom">起送￥20|配送￥5|送达30分钟</view>
+</view>
+</view>

@@ -1,0 +1,10 @@
+<!-- components/left/index.wxml -->
+<!-- <text>components/left/index.wxml</text> -->
+<!-- <view class="left">
+  <block  wx:for="{{data}}" wx:key="this" >
+  <view class="item" data-index="{{index}}"  class="{{isshow==index?'active':''}}" bindtap="changeShow">
+   {{item.text}}
+  </view>
+  </block>
+</view> -->
+

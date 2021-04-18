@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "header":"../../components/header/index",
+    "left":"../../components/left/index",
+    "right":"../../components/right/index",
+    "footer":"../../components/footer/index",
+    "x-left":"../../components/x-left/index"
+  },
+  "navigationBarBackgroundColor": "#FF6600",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "订餐系统"
+}

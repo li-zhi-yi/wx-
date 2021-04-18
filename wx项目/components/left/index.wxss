@@ -1,0 +1,18 @@
+/* components/left/index.wxss */
+view.left{
+  width:260rpx;
+  height: 710rpx;
+  background-color:orange;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* align-items: space-evenly; */
+  
+}
+view.item{
+  align-self: center;
+}
+
+.active{
+  background:gray;
+}

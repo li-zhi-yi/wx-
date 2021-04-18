@@ -1,0 +1,6 @@
+<!--components/footer/index.wxml-->
+<!-- <text>components/footer/index.wxml</text> -->
+<view class="footer">
+  <view class="left">共￥{{price}}元</view>
+  <view class="right" bindtap="navgator">选好了</view>
+</view>

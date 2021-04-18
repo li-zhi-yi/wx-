@@ -1,0 +1,28 @@
+<!--pages/me/index.wxml-->
+<!-- <text>pages/me/index.wxml</text> -->
+<view class="me" style="height:{{height}}rpx">
+  <view class="img">
+  <open-data type="userAvatarUrl" class="img"></open-data>
+  <view class="content">
+    <open-data type="userNickName" class="user"></open-data>
+    <text>Beijing Haidian</text>
+  </view>
+</view>
+<view class="tag item">
+  <image class="img" src="/image/tag.png"></image>
+  <text>指南针</text>
+</view>
+<view class="card item">
+  <image class="img" src="/image/card_bag.png"></image>
+  <text>打卡</text>
+</view>
+<view class="mp item">
+  <image class="img" src="/image/mp.png"></image>
+  <text>打开</text>
+</view>
+<view class="mp item">
+  <image class="img" src="/image/menu_settings.png"></image>
+  <text>设置</text>
+</view>
+
+</view>

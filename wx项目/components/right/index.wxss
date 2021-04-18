@@ -1,0 +1,134 @@
+/* 
+view.right,scroll-view.content{
+  height: 710rpx;
+  background:pink;
+}
+scrill-view  view.item{
+  display:flex;
+  height: 216rpx;
+  box-sizing: border-box;
+  padding-left:15rpx;
+  display:flex;
+}
+view.r-left,view.item>view.r-left>image{
+  width:214rpx ;
+  height: 214rpx;
+
+}
+image{
+  width:220rpx ;
+  height: 216rpx;
+  border-bottom:2rpx solid;
+}
+view.item>view.r-right{
+  flex:1;
+  display:flex;
+  flex-direction: column;
+  margin-left:10rpx;
+  margin-top:10rpx;
+  font-weight: bold;
+}
+view.r-right>view.title{
+  height: 40rpx;
+  font-size: 40rpx;
+  line-height:40rpx;
+  margin-bottom:20rpx;
+}
+view.r-right>view.sall{
+  height: 28rpx;
+  font-size: 28rpx;
+  line-height:28rpx;
+  margin-bottom:10rpx;
+  color:#BBBBBB;
+}
+view.bottom{
+  display:flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 60rpx;
+  box-sizing: border-box;
+  padding-right: 20rpx;
+}
+view.bottom>view.b-left{
+  width: 100rpx;
+  height: 60rpx;
+  font-size: 36rpx;
+  line-height:60rpx;
+  font-weight: bold;
+  color:red;
+}
+
+view.b-right>text{
+  align-self:end;
+  display:inline-block;
+  width: 60rpx;
+  height: 60rpx;
+  font-size: 45rpx;
+  line-height:60rpx;
+  text-align:center;
+  border-radius:50%;
+  color:red;
+}
+view.b-right view.add{
+  display:flex;
+  justify-content: space-evenly;
+} */
+
+view.con{
+  width: 100%;
+  height: 710rpx;
+  box-sizing:border-box;
+  padding-left:10rpx;
+  overflow: hidden;
+  /* background-color:orange; */
+}
+view-scroll .content{
+  width: 100%;
+  height: 710rpx;
+  background:pink;
+}
+view.item{
+  display:flex;
+  border-bottom:2rpx solid #ccc;
+  padding:20rpx;
+}
+view.item>image{
+  width: 176rpx;
+  height: 127rpx;
+}
+view.right{
+  flex:1;
+  display:flex;
+  flex-direction: column;
+}
+text.title{
+  flex-wrap: nowrap;
+  font-size: 32rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+text.sale{
+  font-size: 28rpx;
+  color: #999;
+}
+view.status{
+  display:flex;
+}
+ view.status> text.price{
+  flex: 1;
+  font-size: 32rpx;
+  color:red;
+}
+text.add,text.reduce{
+  display: inline-block;
+  width: 40rpx;
+  height: 40rpx;
+  text-align: center;
+  line-height: 36rpx;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 40rpx;
+  color:red;
+}

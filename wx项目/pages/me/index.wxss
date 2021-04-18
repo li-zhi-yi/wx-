@@ -1,0 +1,43 @@
+/* pages/me/index.wxss */
+view.me{
+  width: 750rpx;
+  background:#ccc;
+  overflow: hidden;
+}
+view.img{
+  display:flex;
+  padding:25rpx;
+  margin-bottom:80rpx;
+  background:#ffffff;
+}
+view.img>open-data.img{
+  width: 150rpx;
+  height: 150rpx;
+  margin-right:25rpx;
+}
+open-data{
+  font-size: 45rpx;
+  line-height:75rpx;
+  display:block;
+  height: 75rpx;
+  font-weight: bold;
+}
+view.item{
+  display:flex;
+  width: 100%;
+  height:100rpx;
+  overflow: hidden;
+  line-height:100rpx;
+  font-size: 36rpx;
+  background:white;
+  border-bottom:1px solid #ccc;
+}
+view.item>image.img{
+  width: 50rpx;
+  height: 50rpx;
+  margin:25rpx 25rpx;
+}
+view.mp{
+  margin-bottom:80rpx;
+  border:none;
+}

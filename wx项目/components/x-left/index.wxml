@@ -1,0 +1,9 @@
+<!--components/x-left/index.wxml-->
+<view style="height:{{height}}rpx" class="nav">
+  <block wx:for="{{menu}}" wx:key="this">
+    <view class="item {{item.id===choose?'active':''}}" 
+    bindtap="changeShow"
+    style="height:{{height/10}}rpx"
+    data-index="{{item.id}}">{{item.text}}</view>
+  </block>
+</view>
